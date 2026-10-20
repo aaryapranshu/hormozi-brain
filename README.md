@@ -4,7 +4,17 @@
 
 Give it your numbers. It finds the one thing holding you back, picks the right framework, and tells you what to do this week.
 
-No code. No install. Paste this repo's link into Claude and it's saved.
+## Install it in any Claude chat (30 seconds)
+
+Open a new chat in Claude (or ChatGPT), paste this line and send it:
+
+```
+Install Hormozi Brain from https://github.com/aaryapranshu/hormozi-brain. Read https://hormozibrain.vercel.app/claude.md first and follow it.
+```
+
+Claude reads all 12 brain files from this repo (about 110,000 tokens of frameworks, playbooks, quotes and stories), confirms the install and asks you five questions about your business. It needs web access, which is on by default in Claude.
+
+No web access in your chat? Use the one-paste version at [https://hormozibrain.vercel.app/unlock](https://hormozibrain.vercel.app/unlock). It's a condensed copy of the same brain.
 
 > Unofficial. Not affiliated with or endorsed by Alex Hormozi or Acquisition.com. Built by [Fulcrum Labs](https://hormozibrain.vercel.app/#fulcrumos).
 
@@ -31,7 +41,7 @@ This one was engineered:
 | Where | How | Lasts |
 |---|---|---|
 | **Claude Project** (recommended) | New project → paste one instruction line → **Project knowledge → + → GitHub** → paste this repo's URL → tick `brain` → **Add files**. Works on every plan, including Free. Full steps: **[SETUP-CLAUDE.md](SETUP-CLAUDE.md)** | Permanent. Click **Sync now** to get updates |
-| **Any chat** (Claude or ChatGPT) | Paste: `Load the Hormozi Brain from https://hormozibrain.vercel.app/claude.md. Read it, follow it, then run /start.` Needs web access on | That chat |
+| **Any chat** (Claude or ChatGPT) | Paste the install line above. Needs web access on | That chat |
 | **Claude Code / Codex / Cursor** | `git clone https://github.com/aaryapranshu/hormozi-brain` and open it. `CLAUDE.md` / `AGENTS.md` wire it up | Permanent |
 
 ---
